@@ -34,4 +34,11 @@ void learningVariables() {
 
   data3 = 33;
   print("Data 3 = $data3");
+
+  // comment
+  /*
+  
+  
+  
+   */
 }
