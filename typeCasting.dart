@@ -19,22 +19,44 @@ void typeCasting() {
   print("Age = ${age.toString()}, Type = ${age.toString().runtimeType}");
 
   // STR TO
-  // str to int (parse & tryParse)
   String num1 = "45";
-  var num1Int = num.parse(num1); // OR int.parse(num1)
-  print("num1 = $num1Int; Type = ${num1Int.runtimeType}");
-
-  // str to double (parse & tryParse)
   String num2 = "45.67";
-  var num2Double = num.parse(num2); // OR double.parse(num2)
-  print("num2 = $num2Double; Type = ${num2Double.runtimeType}");
 
-  // str to bool
+  // int str to int
+  var num1i = num.parse(num1); // OR int.parse(num1)
+  print("num1 = $num1i; Type = ${num1i.runtimeType}");
 
-  // bool to int
-  // bool to double
+  // int str to double
+  double num1d = double.parse(num1); // "45" --> 45.0 
+  print("num1 = $num1d; Type = ${num1d.runtimeType}");
+
+
+  // double str to double 
+  var num2d = num.parse(num2); // OR double.parse(num2)
+  print("num2 = $num2d; Type = ${num2d.runtimeType}");
+
+  // double str to int 
+  int num2i = double.parse(num2).toInt(); // "45.67" --> 45
+  print("num2 = $num2i; Type = ${num2i.runtimeType}");
+
   // bool to str
   bool isStudent = true;
   String isStudentStr = isStudent.toString();
   print("is Student = $isStudentStr; Type = ${isStudentStr.runtimeType}");
+
+  // TRY PARSE
+  String name = "Maaz";
+
+  // print(num.parse(name)); // error
+
+  var nameNum = num.tryParse(name);
+
+  print(nameNum);
+
+  String value = "34.7";
+
+  double? valueNum= double.tryParse(value);
+
+  print(valueNum);
+
 }
