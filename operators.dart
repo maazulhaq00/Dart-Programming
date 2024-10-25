@@ -25,10 +25,18 @@ void learningOperators(){
   print(a--); // print 6 then decrement (a = 5)
   print(--a); // decrement (a = 4) then print 4
 
-  print("Enter a num: ");
+  // conditional expression
 
-  int number = int.parse(stdin.readLineSync()!);
+  print("Enter a number: ");
+  int number = int.tryParse(stdin.readLineSync()!) ?? 0;
+  (number % 2 == 0) ? print("$number is Even number")  : print("$number is Odd number");
 
-  number % 2 == 0 ? print("Even")  : print("Odd");
+  // Assignment Operator
 
+  int y = 10;
+  y += 3; // y = y + 3
+  print(y); // 13
+
+  y %= 2; // y = y % 2 ==> y = 13 % 2 = 1
+  print(y); // 1
 }
