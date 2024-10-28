@@ -1,7 +1,10 @@
 
 import 'Inputs.dart';
+import 'loopsAndControlStatements.dart';
+import 'numberMethods.dart';
 import 'operators.dart';
 import 'outputs.dart';
+import 'stringMethods.dart';
 import 'typeCasting.dart';
 import 'variable.dart';
 
@@ -10,5 +13,8 @@ void main(List<String> args) {
   // learningVariables();
   // typeCasting();
   // learningInputs();
-  learningOperators();
+  // learningOperators();
+  // learningLnCS();
+  // numberMethods();
+  stringMethods();
 }
