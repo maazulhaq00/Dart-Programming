@@ -1,5 +1,7 @@
 
 import 'Inputs.dart';
+import 'exception.dart';
+import 'list.dart';
 import 'loopsAndControlStatements.dart';
 import 'numberMethods.dart';
 import 'operators.dart';
@@ -16,5 +18,7 @@ void main(List<String> args) {
   // learningOperators();
   // learningLnCS();
   // numberMethods();
-  stringMethods();
+  // stringMethods();
+  // learningException();
+  learningList();
 }
