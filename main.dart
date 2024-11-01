@@ -1,11 +1,14 @@
 
+import '2dlist.dart';
 import 'Inputs.dart';
 import 'exception.dart';
 import 'list.dart';
 import 'loopsAndControlStatements.dart';
+import 'map.dart';
 import 'numberMethods.dart';
 import 'operators.dart';
 import 'outputs.dart';
+import 'sets.dart';
 import 'stringMethods.dart';
 import 'typeCasting.dart';
 import 'variable.dart';
@@ -20,5 +23,9 @@ void main(List<String> args) {
   // numberMethods();
   // stringMethods();
   // learningException();
-  learningList();
+  // learningList();
+  // learningList();
+  // twoDList();
+  // learningSets();
+  learningMap();
 }
