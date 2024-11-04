@@ -2,6 +2,7 @@
 import '2dlist.dart';
 import 'Inputs.dart';
 import 'exception.dart';
+import 'functions.dart';
 import 'list.dart';
 import 'loopsAndControlStatements.dart';
 import 'map.dart';
@@ -27,5 +28,6 @@ void main(List<String> args) {
   // learningList();
   // twoDList();
   // learningSets();
-  learningMap();
+  // learningMap();
+  learningFunctions();
 }
