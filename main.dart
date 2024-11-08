@@ -4,6 +4,9 @@ import 'Inputs.dart';
 import 'exception.dart';
 import 'functions.dart';
 import 'functions2.dart';
+import 'higherOrderFunction2.dart';
+import 'higherOrderFunctions.dart';
+import 'lambdaFunction.dart';
 import 'list.dart';
 import 'loopsAndControlStatements.dart';
 import 'map.dart';
@@ -14,7 +17,7 @@ import 'recursion.dart';
 import 'sets.dart';
 import 'stringMethods.dart';
 import 'sumEvens.dart';
-import 'throwingExceprion.dart';
+import 'throwingException.dart';
 import 'typeCasting.dart';
 import 'variable.dart';
 
@@ -37,5 +40,8 @@ void main(List<String> args) {
   // learningFunctions2();
   // recursion();
   // sumEvens();
-  throwingException();
+  // throwingException();
+  // lambdaFunction();
+  higherOrderFunctions();
+  higherOrderFunctions2();
 }
