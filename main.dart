@@ -8,6 +8,7 @@ import 'higherOrderFunction2.dart';
 import 'higherOrderFunctions.dart';
 import 'lambdaFunction.dart';
 import 'list.dart';
+import 'listHOF.dart';
 import 'loopsAndControlStatements.dart';
 import 'map.dart';
 import 'numberMethods.dart';
@@ -20,6 +21,7 @@ import 'sumEvens.dart';
 import 'throwingException.dart';
 import 'typeCasting.dart';
 import 'variable.dart';
+import 'whereHOF.dart';
 
 void main(List<String> args) {
   // learningOutput();
@@ -42,6 +44,8 @@ void main(List<String> args) {
   // sumEvens();
   // throwingException();
   // lambdaFunction();
-  higherOrderFunctions();
-  higherOrderFunctions2();
+  // higherOrderFunctions();
+  // higherOrderFunctions2();
+  // whereHOF();
+  listHOF();
 }
