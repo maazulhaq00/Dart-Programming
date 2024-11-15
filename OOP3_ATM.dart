@@ -1,4 +1,5 @@
 void oopATM() {
+  print(BankAccount.bankName);
   BankAccount ba1 = BankAccount("Saad", 7654, 20000);
 
   ba1.checkBalance(1234);
@@ -7,9 +8,11 @@ void oopATM() {
   ba1.withdraw(7654, 3000);
   ba1.withdraw(7654, 20000);
 
+
 }
 
 class BankAccount {
+  static String bankName = "DB Bank";
   var accountHolder, balance, pin;
 
   BankAccount(String accountHolder, int pin, [int balance = 0]) {

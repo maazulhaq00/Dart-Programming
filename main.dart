@@ -3,7 +3,10 @@ import '2dlist.dart';
 import 'Inputs.dart';
 import 'OOP.dart';
 import 'OOP2.dart';
-import 'OOP_ATM.dart';
+import 'OOP3_ATM.dart';
+import 'OOP4.dart';
+import 'OOP5.dart';
+import 'OOP6_Inheritance.dart';
 import 'exception.dart';
 import 'functions.dart';
 import 'functions2.dart';
@@ -53,5 +56,8 @@ void main(List<String> args) {
   // listHOF();
   // learningOOP();
   // learningOOP2();
-  oopATM();
+  // oopATM();
+  // learningOOP4();
+  // learningOOP5();
+  learningOOP6();
 }

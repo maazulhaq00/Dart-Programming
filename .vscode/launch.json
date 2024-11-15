@@ -12,11 +12,11 @@
             "program": "main.dart"
         },
         {
-            "name": "Run Abc",
+            "name": "Run Work",
             "request": "launch",
             "type": "dart",
             "console": "terminal",
-            "program": "abc.dart"
+            "program": "work.dart"
         }
     ]
 }
